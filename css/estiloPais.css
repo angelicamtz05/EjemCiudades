@@ -1,0 +1,85 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+/* background-position: center;*/
+}
